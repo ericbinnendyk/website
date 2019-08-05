@@ -1,0 +1,342 @@
+Letters: A, Ā, B, Я, V, X, I
+
+Nouns:
+BA - speck
+BI - time, age
+VB - liquid
+XI - number
+IA - money
+IX - solid
+ABI - planet
+ЯBA - boy
+ЯBI - girl
+ЯVX - ruby
+ЯIX - box, house
+VXЯ - place
+XAB - elephant
+XĀA - sky
+XЯI - now (apparently I already created this before BAVX and then forgot to add it to Lingojam)
+XVЯ - prism
+IXA - way
+ĀABV - point (as an extremity, not point in space), corner, vertex
+BAVX - now
+BAXI - cat
+ЯĀIX - book
+ЯVЯĀ - length
+VAЯA - name
+VAЯĀ - person, human
+VAVB - water
+VAIX (VĀX?) - ice
+BAXĀA - star
+BĀABV - edge
+ЯĀABV - face
+ЯBIVA - communication
+VVBAЯ - network, graph
+XIVXЯ - rank
+IVXIX - metric unit
+ЯAXIBV - polytope
+ЯBIVIBЯ - array
+ABAЯBABĀBA - dog
+To be added:
+IVIX
+BIXI - 2-vector
+ЯIXI - 3-vector
+IIXI - 5-vector
+VIXI - 4-vector
+ЯBIXI - 6-vector
+XIЯIXI - 10-vector
+ЯBABIXI - 7-vector
+ЯBAЯIXI - 8-vector
+ЯBAVIXI - 9-vector
+
+Pronouns:
+As far as known, have the same syntax as nouns (but different precedence rules)
+I - I, me
+ЯA - he, him
+ЯĀ - it
+ЯI - she, her
+VV - you
+ЯĀX - they, them
+IAX - we, us
+ЯĀBA - this
+ЯVXЯ - there
+ЯIBA - that
+ЯIBĀ - then
+VVAX - you (plural)
+New:
+AЯXI - used for subject of previous sentence
+IЯXA - used for object of previous sentence
+
+Interrogative pronouns:
+VĀ - who, whom
+
+Prepositions:
+Syntax: t1=(noun/adjective/statement) (prep) (noun) -> t1
+Note: Not all prepositions can be used in the same grammatical context and thus belong to the same part of speech. This category will be subdivided into tag prepositions, noun-or-sentence-modifying prepositions, and exclusively sentence-modifying prepositions later.
+VI - in
+XA - to (tag preposition)
+XAЯ - for (noun-modifying)
+XĀV - by, in the measure of
+XVI - in (noun-modifying) (describes the time an event takes place)
+ЯĀXA - like/as
+ЯVXA - with
+VIXA - into
+XAЯXI - instead of, as opposed to (modifies noun and under proposed change every noun modifier can also modify sentences)
+New:
+XAĀЯ
+XĀAЯ
+
+Conjunctions:
+Syntax: t1=(noun/verb/adjective/statement/prep?) (conj) t1 -> t1
+BĀ - and
+BĀĀ - and (denotes that the object can be described by both nouns)
+ЯBĀ - if
+ЯIĀ - or
+BIЯĀVXA - plus
+ЯIBĀVXA - minus
+
+Verbs:
+Syntax: (noun) (verb) (noun) -> (statement)
+AX - be, is, are
+ĀЯA - own
+BAV - facet
+BIЯ - add
+ЯIB - remove
+VIX - create
+XIA - have
+XIX - have (auxiliary)
+IAV - go
+ABVI - take
+AXIV - destroy
+BVĀX - read
+ЯVAĀ - know
+XAЯI - say
+XIVI - contain
+AVĀBI - give
+BAXVA - want
+ЯĀXVI - save
+XAXBI - look/see
+XVAVI
+BĀXIЯI - look into, study
+XЯAЯIV - cut, truncate
+BĀAVЯĀA - change
+To be added:
+BVXЯIV
+
+Modifiable verbs:
+Syntax: (verb) (modifiable verb) -> (verb)
+VAЯI
+XVIXA - start
+
+Adjectives:
+Syntax: (adjective) t1=(noun/verb/adjective/prep?) -> t1
+VAЯ - grand
+VAX - big, great (relative size), large
+VĀB - small, little
+VĀX - long
+VIB - short
+VIЯ - medial
+BAĀV - bad
+VĀAB - good
+BIXAV - too, also (place this into metalinguistic category?)
+BIXBIX - another, again
+IAЯBAVЯAVAЯ - important
+
+To be added:
+BIXIBA - sleeping, asleep
+
+Non-numeric determiners:
+Syntax: (nnd) (noun) -> (noun), can also function as noun
+Note: These quantifiers take plural form of the noun iff they are referring to more than one instance of the noun. In some cases, such as ЯAXI, that should be all the time, while in other cases it should be only most of the time.
+ĀAX - some (only on its own), ones
+ABVA - each, every
+ЯAXI - many
+
+Adverbs:
+Syntax: (adverb) t1=(verb/adjective) -> t1
+AXA - such, very
+ĀЯI - most
+
+Numbers:
+Syntax: (num) (noun) -> (noun), can also function as noun
+ĀA - a, an, one
+BĀA - two
+ЯĀA - three
+VĀA - four
+IĀA - five
+ЯBĀA - six
+ЯVXI - thousand
+XIЯA - ten
+XIVI (Wait, what? No. Why is this here? Did I put it here and then forget to remove it?)
+ĀAVXI - million
+BAЯXI - hundred
+BĀAVXI - billion
+BVXIЯA - twenty
+ЯĀAVXI - trillion
+ЯBABĀA - seven
+ЯBAЯĀA - eight
+ЯBAVĀA - nine
+ЯVXIЯA - thirty
+VĀAVXI - quadrillion
+VVXIЯA - forty
+IĀAVXI - quintillion
+IVXIЯA - fifty
+BABAЯXI - two hundred
+ЯABAЯXI - three hundred
+ЯBVXIЯA - sixty
+VABAЯXI - four hundred
+IABAЯXI - five hundred
+ЯBABAЯXI - six hundred
+ЯBABVXIЯA - seventy
+ЯBAЯVXIЯA - eighty
+ЯBAVVXIЯA - ninety
+ЯBABABAЯXI - seven hundred
+ЯBAЯABAЯXI - eight hundred
+ЯBAVABAЯXI - nine hundred
+
+Passive participle verbs:
+XIAĀV
+XAЯIĀV
+BĀAVЯĀAĀV
+
+Adjective groupers:
+IЯ - (overrides the default right-associative grouping of adjectives and marks the first adjective as modifying the second adjective alone)
+
+Sentence modifiers:
+Syntax: (sm) (statement) -> (statement)
+A - (placed at beginning of sentence, turns it into a command)
+BV - is it true that
+XЯA
+BIXIЯA - next, later (if previous order modifier was n XVIЯA, this means (n + 1) XVIЯA)
+
+Negators:
+Syntax: (neg) t1=(noun/verb/adjective/prep?) -> t1
+Note: to be merged with adjective category
+XAV - not
+
+Metalinguistic sentence/noun/adj./verb modifiers:
+Syntax: (modifier) t1=(statement/noun/verb/adjectve) -> t1
+Note: does not affect (restrict or otherwise change) the meaning of the sentence, used only to make a comment about the speaker/listener's attitude toward the information
+IIЯ - (used to indicate the following word may indicate a scenario that is contrary to the listener's predictions or desire)
+
+Passive participle nouns:
+Syntax (apparently): (noun/adjective) (ppn) -> (adjective)
+Note: This is not actually a general procedure that can be done to all nouns. I think this word doesn't mean anything on its own but takes a length of time and converts it into an adjective.
+BIĀV - aged
+
+Plural nouns:
+Note: I'm leaving this here for now because I don't know if this conflicts with a rule I have elsewhere that says that -Ā nouns have plurals ending in -ĀAX.
+Note: I think this is the right way to go but I'm not sure
+(any noun)+X or AX
+VAЯĀX - people
+
+Mysterious interrogatives:
+VĀBA - which
+VĀXA - how
+VVXЯ - where
+VIBA - what
+VIBĀ - when
+
+To be added:
+VBAXЯI
+
+Verbal open parenthesis:
+XĀ
+
+Verbal close parenthesis:
+ĀX
+
+Clause subject marker:
+BIV
+
+Process abstractor (can be used as a suffix for the verb):
+Syntax: [BIV if t1 begins with a noun (or anything other than a verb?)] t1=(statement) (abstractor) -> (noun)
+IB
+XVB - "whether"; extracts truth value of clause
+
+Verb-to-verb suffixes:
+Syntax: (verb)(suffix) -> (verb)
+-IAЯ - future tense
+-ĀЯ - past tense
+
+Clause-to-adjective converters (can be suffixes if they come right after the verb):
+Syntax: [BIV if t1 begins with a noun (or anything other than a verb?)] t1=(statement) (converter) -> (adjective)
+ĀV - object extractor - creates an adjective describing something as being describable as the object of the enclosed clause, which presumably is missing from the clause
+VIA - subject extractor
+
+Noun-to-noun suffixes:
+Syntax: (noun)(suffix) -> (noun)
+-X, -AX - plural (-X used before A, -AX used otherwise?)
+
+I don't think this word should be here but I'm adding this anyway in case it becomes official:
+-ĀVXA - -ed to
+
+Numerical sentence modifiers:
+Syntax: (num) (nsm) -> (sm)
+XVIЯA - -thly, converts a number into a sentence modifier describing the order in which the sentence happens relative to other sentences
+
+Sentence grouper:
+XVA - combines following sentences into single unit - by default combines two units
+
+I think I made categories for every word so far in the language!
+Sentence structure:
+(beginning) (subject) (verb) (possible prep. phrases) (object) (possible prep. phrases)
+
+There are two types of prepositions: the kind that can modify nouns and the kind that only modify sentences.
+Two nouns can also be put together to form a compound noun, w/ the second modifying the first, and in fact any two nouns right next to each other are assumed to be one.
+Conjunctions can go between nouns to form a different kind of compound noun. They can also create compound verbs, adjectives (if grouped properly), and even complete sentences (the sentences still remain separate, but the conjunction goes before the second one).
+Adjectives and adverbs are the same words, just in different situations. They are placed before the word they modify and are right-associative (unless they are regrouped), so you can put a long string of adjectives before a noun and each modifies the part of the string after it.
+Adjectives take precidence over conjunctions, so placing a conjunction between two adjectives in a chain splits it. To make an adjective in the chain compound, regrouping (verbal parentheses or IЯ) is needed.
+IDEAS, UNOFFICIAL:
+Conjunction modifiers like IIЯ go after a conjunction w/o changing its meaning, like adjectives for conjunctions. They can also occur at the beginning of sentences w/o conjunctions present.
+Or else just make them the same as adverbs/adjectives and add special rules for using them at the beginning of a sentence.
+Double quotes are used around names, when transliterated into the 7-letter alphabet (or 17-letter extended alphabet), and also around words used metaphorically.
+Single quotes can be used to quote speech or text
+Triple quotes can be used for non-transliterated foreign text (acting as noun)
+Conditional can be specified future suffix followed by past suffix, or more attractively, just by making the next sentence "if something"
+
+Ideas for words:
+Variations of ЯA, ЯĀ, and ЯI for objects implied but not mentioned
+Interrogative for verbs (and corresponding pronoun)
+Verbal parentheses
+Use same interrogative for all modifiers
+IB for referring to the process of clauses happening, plus a word to put at the beginning of those if ambiguous (or maybe always if it is more than a simple verb) Edit: I think this word is only needed if the clause has a subject.
+Sentence modifier that changes it to imperative mood
+Suffix for future tense
+Suffix for active participle, also for adjective acting like agent noun
+A formal way to answer "fill in the blank" questions: interrogative word + AX + answer (though in informal speech this can be shortened to just the answer). This basically reduces the "question words" to normal pronouns, w/ the extra meaning of "I don't know the replaced word."
+Way to refer to a single word in a sentence and use it in another sentence w/ interrogative words followed by special sentence starter + sentence w/ interrogative word replaced by special word + special sentence ender.
+Word that separates prepositional object from following noun so they don't become a compound
+There seem to be many words for various degrees of intensity of a property, despite the general rule to have as few words as possible. Maybe the adjectives for different sizes (which can actually be used for any quality) should have a way of being combined for greater precision, when comparing more things.
+Since it seems so common, we can make it official that -ĀV is used to terminate nouns as well as verbs
+Make short words for basic concepts that nevertheless have no short english word, like: living creature, quantum, one bit of information, chemical element, etc. as well as for mathematical constants like e, tau, etc.
+Make separate words for communicating verbally, and communicating nonverbally (actually just exchanging information).
+VĀ meaning "who" is very weird. Especially because ЯĀ means "it" for objects as well as humans.
+VBAXЯI should be used for the pronoun form of what while VIBA is the determiner form, or VĀ should become the "already-mentioned" pronoun while VBAXЯI becomes the "implied" pronoun, or VĀ can be who while VIBA and VBAXЯI mean various forms of "what" (implied|mentioned) (pronoun|determiner), or either VIBA or VBAXЯI becomes a new type of "what" for relative clauses while the other one is for interrogatives
+Make more "modifiable verbs" for other concepts that, in effect, always require a process which is denoted by a modifiable verb, for example "want", "might", maybe even the word for "to like" can be this way. Edit: also cause, dare, wish for, start, etc. Actually, some of these might not work because the verb can be part of a whole clause.
+Diff between -VĀV and ЯĀXA, or -VĀV becomes the general "noun-to-adjective" suffix.
+Word that acts as a (sentence-attached) preposition, except that it's used before the object being addressed.
+About the modifiable verbs, they should be used when the process being referenced takes the subject of the sentence as its subject too. We should be careful here because you'd need a completely different word if you wanted to refer to the same process but w/ the subject being something else. So we want to use this for words that such a thing is very rare for.
+Noun-modifying prepositions come at the end of nouns, but sentence-modifying prepositions can be placed anywhere. This means that no words can work as both.
+Word for "using" (sentence-modifying prep.)
+Non-logical sentence connectors for things like "until", "while", "before", "after"... And once again a way to reverse the order of the sentences when saying this.
+Words for "the previous sentence", and probably also for the previous noun. Also maybe add a way to subscript these to reference the second last, third last, etc. nouns/sentences.
+Relation between the active (referring to the subject) participle and a relative clause that also refers to the subject. For example, "impressive thing" could be (impress)(suffix) (thing) and "thing that impresses me" could be "(impress) (me) (suffix but as word) (thing)".
+More prepositions that most natural languages (that I know of). Like, unique words for "by means of" and "by measure of", and words for "perceived by" and "according to the opinion of".
+Suffix that forces present tense, like the past and future ones.
+Numbers can act as nouns and determiners both.
+Pluralizing a number as a determiner means that the thing being talked about is a multiple of that number of entities, greater than that number itself.
+Make a separate word for "not" which negates an entire sentence. I think this choice would be better than connecting XAV w/ another word. Also now you can put XAV into the adjective category.
+It now seems most logical to make a type of preposition that can modify both nouns and sentences (by modifying the process described by the verb in the sentence) and another one that can only modify sentences. These should only give additional information and not affect the veracity 
+And also a third type of preposition that has no meaning on (but usually has a sense of meaning) its own but is given meaning by the verb, as it would act as an extra argument to the verb besides the subject and object. Some verbs need more than two arguments and the extra arguments carry more than just additional information or veracity-altering capabilities. This is how XA (to), 
+Instead of having an adjective "equivalent", have a verb meaning "be equivalent to". Unless you want to have place-structure-specific prepositions for adjectives too. In fact, the equivalence relation needs three arguments, the third being the rules under which they are equivalent.
+This might generate some real controversy when I publish the language but... I think the male and female pronouns should refer to biological sex and not gender. Easier to define exactly and better fits into a binary.
+Adverbs (adjectives acting as adverbs), when modifying verbs should be used to modify the process, not the subject. For example, in "I happily walked," 'happily' refers to additional information about the subject rather than the process.
+Similarly, when adverbs modify adjectives, they should be modifying the scope by which the adjective affects the noun. This is best understood when the adjective is something that can be measured quantitatively, the adverb sets restrictions on the amount.
+When parsing a sentence, compound nouns take precedence over conjunctions which take precedence over noun-modifying prepositions which take precedence over adjectives.
+The exceptions is when adjectives modify pronouns instead of nouns, in which case the pair takes precedence over everything.
+When used after a logical quantifier, like ABVA or the soon-to-be-made "there exists", nouns no longer have a sense of definiteness attached to them, instead they range over all possible instances. If you want to restrict the domain of the noun to a particular unspecified set, you need to use... let's say ЯIBA.
+Word for connecting the following sentences into a single "unit" and allowing sentence modifiers to modify all of them. Also an ending word. If the ending word is elided, the word connects only the first two sentences.
+Remember to add words for Write and Put (x places y at place z_XA)
+Figure out the exact rules for how suffixes should change to match the language's spelling rules. Make sure there are no clashes.
+We can make it so that for adjectives enclosing clauses and ending in ĀV, VIA, the default scope of the clause is any statement describable by it.
