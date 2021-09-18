@@ -1,2 +1,2 @@
 # website
-[ericbinnendyk.github.io/website](ericbinnendyk.github.io/website)
+[ericbinnendyk.github.io/website](https://ericbinnendyk.github.io/website)
