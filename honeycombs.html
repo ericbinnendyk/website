@@ -23,6 +23,30 @@
         <hr>
         <p>This is an attempt to list all known uniform Euclidean 3-dimensional honeycombs. The style of this list and the names were inspired by Jonathan Bowers' <a href="http://polytope.net/hedrondude/polychora.htm">list of uniform polychora</a>, which you should really check out.</p>
         <hr>
+        <h2 style="text-align:center;">What is a uniform honeycomb?</h2>
+        <p>For the purposes of this webpage, a <b>honeycomb</b> is a tessellation of polyhedra (cells) in flat 3-dimensional space. The polyhedra can overlap, and their faces can intersect, as long as every cell touches exactly one other cell at each of its faces. Cells can be infinite tilings of the plane as well as finite polyhedra, and faces can be apeirogons (an endless row of line segments) as well as polygons.</p>
+        <p>Formally, a honeycomb is an abstract polytope of rank 4 embedded in 3-space. In particular, this means that:
+        <ul>
+            <li>It is strictly connected (it is not a compound, and neither are elements, element-figures, or element-figures of elements)</li>
+            <li>It is dyadic (all ridge figures, ridge figures of a cell, ridge figures of a face, and edges have two vertices)</li>
+        </ul>
+        <p>In order to be a proper honeycomb, I also require that:</p>
+        <ul>
+            <li>Two distinct elements cannot share the same set of ridges (a property sometimes called coincidicity)</li>
+            <li>Two edges cannot have the same endpoints (this prevents digons from occurring).</li>
+        </ul>
+        <p>Each vertex is identified with a point in Euclidean 3-space, satisfying the following conditions:</p>
+        <ul>
+            <li>Each face is planar.</li>
+            <li>It is monal, meaning no two vertices overlap (this rules out fissary cases)</li>
+        </ul>
+        <p>In order for a honeycomb to be <b>uniform</b> (by my definition), it must have the additional properties:</p>
+        <ul>
+            <li>It is vertex transitive</li>
+            <li>Every cell is a uniform polyhedron or uniform tiling of Euclidean 2-space. In particular, every element of rank <i>n</i> can be either inscribed in an (<i>n</i> - 1)-sphere or lies in flat (<i>n</i> - 1)-space.</li>
+        </ul>
+        <p>Finally, in order for a honeycomb to not be places in Category B and excluded in the main count, it must not be a <b>subdivision</b>: it cannot have two adjacent cells that are circumscribable in the same sphere or embeddable in the same plane. Equivalently, the vertex figure cannot have two coplanar faces meeting at an edge.</p>
+        <hr>
         <h2 style="text-align:center;">Uniform honeycomb categories</h2>
         <p><b>Category A: Polygon-apeirogon duoprisms</b> - This is the infinite set of duoprisms between an apeirogon and any regular polygon (not counting an apeirogon). Each of them looks like a column of n-gonal prisms, with apeirogonal prisms on the sides.</p>
         <p><b>Category B: Subdivisions</b> - These are the honeycombs with multiple apeiratic cells in the same plane. Their vertex figures have coplanar faces. For each honeycomb in this category, there is an analogous honeycomb somewhere else where each stack of apeiratic cells is replaced by a single apeiratic cell.</p>
