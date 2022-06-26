@@ -25,6 +25,7 @@
         <hr>
         <p>This is an attempt to list all known uniform Euclidean 3-dimensional honeycombs. The style of this list and the names were inspired by Jonathan Bowers' <a href="http://polytope.net/hedrondude/polychora.htm">list of uniform polychora</a>, which you should really check out.</p>
         <hr>
+        <p><b>Update</b>: The formal definition of uniform honeycomb used on this page has been updated to exclude vertex-dense figures. This was always part of my intuitive definition, but I missed it in my formalization until now. The list itself has not changed.</p>
         <h2 style="text-align:center;">What is a uniform honeycomb?</h2>
         <p>For the purposes of this webpage, a <b>honeycomb</b> is a tessellation of polyhedra (cells) in flat 3-dimensional space. The polyhedra can overlap, and their faces can intersect, as long as every cell touches exactly one other cell at each of its faces. Cells can be infinite tilings of the plane as well as finite polyhedra, and faces can be apeirogons (an endless row of line segments) as well as polygons.</p>
         <p>Formally, a honeycomb is an abstract polytope of rank 4 embedded in 3-space. In particular, this means that:
@@ -41,6 +42,7 @@
         <ul>
             <li>Each face is planar.</li>
             <li>It is monal, meaning no two vertices overlap (this rules out fissary cases)</li>
+            <li>The set of vertices is not dense; for each vertex V, there is a real number e > 0 such that there are no vertices within distance e of V.</li>
         </ul>
         <p>In order for a honeycomb to be <b>uniform</b> (by my definition), it must have the additional properties:</p>
         <ul>
