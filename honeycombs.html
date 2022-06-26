@@ -25,7 +25,9 @@
         <hr>
         <p>This is an attempt to list all known uniform Euclidean 3-dimensional honeycombs. The style of this list and the names were inspired by Jonathan Bowers' <a href="http://polytope.net/hedrondude/polychora.htm">list of uniform polychora</a>, which you should really check out.</p>
         <hr>
+        <p><b>Update</b>: Clarified that the non-coincidic requirement only applies to faces and higher. After all, every pair of edges shares the same ridge (the nullitope).</p>
         <p><b>Update</b>: The formal definition of uniform honeycomb used on this page has been updated to exclude vertex-dense figures. This was always part of my intuitive definition, but I missed it in my formalization until now. The list itself has not changed.</p>
+        <hr>
         <h2 style="text-align:center;">What is a uniform honeycomb?</h2>
         <p>For the purposes of this webpage, a <b>honeycomb</b> is a tessellation of polyhedra (cells) in flat 3-dimensional space. The polyhedra can overlap, and their faces can intersect, as long as every cell touches exactly one other cell at each of its faces. Cells can be infinite tilings of the plane as well as finite polyhedra, and faces can be apeirogons (an endless row of line segments) as well as polygons.</p>
         <p>Formally, a honeycomb is an abstract polytope of rank 4 embedded in 3-space. In particular, this means that:
@@ -35,7 +37,7 @@
         </ul>
         <p>In order to be a proper honeycomb, I also require that:</p>
         <ul>
-            <li>Two distinct elements cannot share the same set of ridges (a property sometimes called coincidicity)</li>
+            <li>Two distinct elements of rank greater than 1 cannot share the same set of ridges (disallowing a property sometimes called coincidicity)</li>
             <li>Two edges cannot have the same endpoints (this prevents digons from occurring).</li>
         </ul>
         <p>Each vertex is identified with a point in Euclidean 3-space, satisfying the following conditions:</p>
