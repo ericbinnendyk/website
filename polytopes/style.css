@@ -1,0 +1,17 @@
+body {
+    background: rgb(0, 15, 50);
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
