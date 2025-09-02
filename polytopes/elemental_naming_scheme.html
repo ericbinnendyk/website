@@ -21,7 +21,7 @@
 
 <hr>
 
-<p>The elemental naming scheme is a cool naming scheme for polytopes. I recognized its potential ever since 2015, as a scheme that treats different symmetry groups as unique mathematical objects with their own families of properties, rather than simply numerically arranged numbers of sides.</p>
+<p>The elemental naming scheme is a cool naming scheme for polytopes. I recognized its potential ever since 2015, as a scheme that treats different symmetry groups as unique mathematical objects with their own families of properties, rather than simply numerically describing the number of sides.</p>
 
 <p>The original elemental naming scheme, as developed by Anton Sherwood and Keiji, only covers convex Wythoffian polytopes. Here, I extend it to cover all nonconvex uniform Wythoffian polytopes, and hopefully eventually all uniform polytopes with reflection across edges.</p>
 
@@ -33,11 +33,13 @@
 
 <p>1-dimensional polytopes</p>
 
-<li>Line segment/dyad?
+<li>Dyad - line segment/dyad
 
 <hr>
 
 <p>2-dimensional polytopes (polygons)</p>
+
+<p>We can see how each shape has multiple names depending on the symmetry. The truncated polygons have the infix -tomo-, but it could also be -peri- (expansion) or -panto- (omnitruncation). I chose -tomo- because truncation is the simplest of the three operations to explain to a layperson.</p>
 
 <li>Pyrogon - triangle
 <li>Pyrotomogon - hexagon (under A2 symmetry)
@@ -49,14 +51,16 @@
 <li>[1-3-quasi?][soap?]gon - heptagram
 <li>[2-3-quasi?][soap?]gon - great heptagram
 <li>...
+<li>Dyadic prism - square (under A2xA2 symmetry)
 
 <p><b>Prisms</b></p>
 
 <li>Dyad prism - square (under BC2 symmetry)
 
-<p>2-dimensional tilings (tilings)</p>
+<p>Rank-2 tilings (apeirogons)</p>
 
-<li>Apeirogon - apeirogon
+<li>Apeirogon - apeirogon (as x~o)
+<li>Apeirotomogon - apeirogon (as x~x)
 
 <hr>
 
@@ -64,12 +68,14 @@
 
 <p><b>Convex</b></p>
 
+<p>Note that the icosahedron under tetrahedral symmetry doesn't have a name, because it doesn't have reflections across edges under that symmetry.</p>
+
 <li>Pyrohedron - tetrahedron
 <li>Pyromesohedron - octahedron (under A3 symmetry)
 <li>Pyrotomohedron - truncated tetrahedron
 <li>Pyroperihedron - cuboctahedron (under A3 symmetry)
 <li>Pyropantohedron - truncated octahedron (under A3 symmetry)
-<li>Geohedron - cube
+<li>Geohedron - cube (under BC3 symmetry)
 <li>Stauromesohedron - cuboctahedron (under BC3 symmetry)
 <li>Aerohedron - octahedron (under BC3 symmetry)
 <li>Geotomohedron - truncated cube
@@ -97,7 +103,18 @@
 <li>Duocopyrohemiperihedron - octahemioctahedron (under BC3 symmetry)
 <li>...
 
-<p><b>Tilings</b></p>
+<p><b>Prisms</b></p>
+
+<li>Pyrogonal prism - triangular prism
+<li>Pyrotomogonal prism - hexagonal prism (under A2xA1 symmetry)
+<li>Aerogonal prism - cube (under BC2xA1 symmetry)
+<li>Hydrogonal prism - pentagonal prism
+<li>Quasihydrogonal prism - pentagrammic prism
+<li>Melagonal prism - hexagonal prism (under G2xA1 symmetry)
+<li>...
+<li>Dyadic prismatic prism - cube (under A1xA1xA1 symmetry)
+
+<p><b>Rank-3 tilings (tilings)</b></p>
 <li>Cubatihedron - square tiling (as x4o4o)
 <li>Cubatimesohedron - square tiling (as o4x4o)
 <li>Cubatiperihedron - square tiling (as x4o4x)
@@ -119,7 +136,11 @@
 
 <p>4-dimensional polytopes (polychora)</p>
 
+<p>Convex</p>
+
 <p>Notice that even for convex cases here, we are changing some names from the traditional ENS names (e.g. pyrosphenochoron instead of pyrocantichoron). That is because we want the same infix to be used for polytopes with the same verf type, and not all sphenoverts are cantellates.</p>
+
+<p>Observe that shapes don't get separate names for their decachoric or tetracontoctachoric symmetry. This is because these symmetries are not reflection groups.</p>
 
 <li>Pyrochoron - pentachoron
 <li>Pyrorectichoron - rectified pentachoron
@@ -161,6 +182,46 @@
 <li>Xyloscalichoron - great rhombated icositetrachoron
 <li>Xylosphenopyrichoron - prismatorhombated icositetrachoron
 <li>Xylopantochoron - great prismatotetracontoctachoron
+<li>...
+
+<p>Nonconvex</p>
+
+<p>We use -tomospheno-, instead of -sphenopyri-, for the shapes with trapezoid pyramid vertex figures <em>if</em> they have loop Coxeter-Dynkin diagrams. This is because according to the traversal rules, if the loop is at one end of the diagram, we (almost) always go towards it to get the name.</p>
+
+<p>Note "repyro", a name for the o3o3o3/2o family which is a retrogradization of the o3o3o3o family. This (and its analogs in other dimensions) is the only non-fissary case I know where two polytopes have the same pattern of ringed nodes in retrograde families that aren't conjugates or quasiconjugates. Thus, we need a new prefix "re-" that only appears in this one situation. Conjugates and quasiconjugates would be handled with words like "quasi-".</p>
+
+<p>Nonconvex Wythoffians in 4D are the first case that we need new infixes that weren't needed for convex shapes. In particular, -skew- and -cupoli-. We also have some full-symmetrical uses of -podi-. These are for vertex figure types (tuples) that aren't found among convex polychora.</p>
+
+<li>Repyrohemiperichoron - facetorectified pentachoron
+<li>Copyrosphenochoron - retrosphenoverted trispentachoron
+<li>Copyropodichoron - decahemidecachoron
+<li>Copyrotomosphenochoron - prismatotrispentachoron
+<li>Quasigeotomochoron - quasitruncated tesseract
+<li>Quasigeosphenochoron - quasirhombated tesseract
+<li>Quasistauroperichoron - quasidisprismatotesseractihexadecachoron
+<li>Quasigeoscalichoron - great quasirhombated tesseract
+<li>Quasigeosphenopyrichoron - quasiprismatorhombated hexadecachoron
+<li>Quasiaerosphenopyrichoron - prismatoquasirhombated tesseract
+<li>Quasistauropantochoron - great quasidisprismatotesseractihexadecachoron
+<li>Cogeosphenochoron - retrosphenoverted tesseractitesseractihexadecachoron
+<li>Cogeopodichoron - great tesseractitesseractihexadecachoron
+<li>Cogeoscalichoron - tesseractihexadecatruncated tesseractihexadecachoron
+<li>Cogeoskewchoron - small skewverted prismatohexadecadisoctachoron
+<li>Cogeotomosphenochoron - small cubihexadecadisoctachoron
+<li>Cogeopantochoron - tesseractihexadecatruncated prismatotesseractihexadecachoron
+<li>Quasicogeosphenochoron - sphenoverted tesseractitesseractihexadeachoron
+<li>Quasicogeopodichoron - small tesseractitesseractihexadecachoron
+<li>Quasicogeoscalichoron - tesseractihexadecaquasitruncated tesseractihexadecachoron
+<li>Quasicogeoskewchoron - great skewverted prismatohexadecadisoctachoron
+<li>Quasicogeotomosphenochoron - great cubihexadecadisoctachoron
+<li>Quasicogeopantochoron - tesseractihexadecaquasitruncated prismatotesseractihexadecachoron
+<li>Coaerosphenochoron - retrosphenoverted hexadecatesseractioctachoron
+<li>Coaerohemipodichoron - octahemihexadecachoron
+<li>Coaeroskewchoron - skewverted prismatohexadecadistesseract
+<li>Coaerotomosphenochoron - small prismatohexadecadisoctachoron
+<li>Quasicoaerotomosphenochoron - great prismatohexadecadisoctachoron
+<li>Sphogeoskewchoron - skewverted hexadecatrisoctachoron
+<li>...
 
 <hr>
 
@@ -171,5 +232,3 @@
 <p><a href="../polytopes/">Main polytope page</a></p>
 
 </body>
-
-
