@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Logarithmic age</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Logarithmic age</h1>
+        <p>In 2017, I invented a logarithmic calendar/"age" measurement based on the idea that the rate at which time seems to pass, in terms of important life events, is directly proportional to the amount of time we've already lived, an idea that I first heard about in a Vsauce video.</p>
+        <p>Of course, this means that one's birth "feels" like an infinitely long time before the present. So I needed to set an arbitrary time in one's life to be the "zero" in this system. I decided to make "zero" coincide with my thirteenth birthday in 2012, because the year 2012 was a legendary time and a turning point in my life in many ways.</p>
+        <p>The "units" of this system are "perceived years at 13." A perceived year at 13 is defined as an interval of time that feels as long as an average year would feel under the time perception I had on my 13th birthday. An "average year" is defined as 1/13 the time between my birth and my 13th birthday, for ease of calculation. This is slightly different from the mean year in the Julian or Gregorian calendars, or the mean solar year.</p>
+        <p align="center">Time since I was born in milliseconds: <span id="time"></span></p>
+        <p align="center">My logarithmic age in "perceived years at 13" since I was 13: <span id="logage"></span></p>
+        <p>Note: Time since I was born is given as time since the beginning of the day I was born, not the time I was born.</p>
+        <p align="center"><a href="misc.html">Back</a></p>
+    </body>
+    <script>
+        /*
+        Derivation of the formula:
+        p(t) = perceived time as a fn of actual time, p(t) is unitless
+        p'(13th birthday) = 1/("average" year of my life up to that point) = 13/(my age at 13)
+        p'(t) is inversely proportional to t - birth
+        p'(t)*(t - birth) = c
+        p'(13th birthday)*(my age at 13) = c = 13
+        p'(t) = 13/(t - birth)
+        p(13th birthday) = 0
+        p(t) = integral(13/(t' - birth), t', 13th birthday, t) = 13*(log(t - birth) - log(my age at 13))
+        */
+        const myBirthday = new Date("1999-03-01").getTime();
+        const myAgeAt13 = new Date("2012-03-01").getTime() - myBirthday;
+        function updateDisplay() {
+            const d = new Date();
+            document.getElementById("time").innerHTML = (d.getTime() - myBirthday);
+            document.getElementById("logage").innerHTML = 13*(Math.log(d.getTime() - myBirthday) - Math.log(myAgeAt13));
+        }
+        setInterval(updateDisplay, 1000/30);
+    </script>
+</html>
