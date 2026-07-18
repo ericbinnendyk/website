@@ -9,9 +9,131 @@
         <p>In 2017, I invented a logarithmic calendar/"age" measurement based on the idea that the rate at which time seems to pass, in terms of important life events, is directly proportional to the amount of time we've already lived, an idea that I first heard about in a Vsauce video.</p>
         <p>Of course, this means that one's birth "feels" like an infinitely long time before the present. So I needed to set an arbitrary time in one's life to be the "zero" in this system. I decided to make "zero" coincide with my thirteenth birthday in 2012, because the year 2012 was a legendary time and a turning point in my life in many ways.</p>
         <p>The "units" of this system are "perceived years at 13." A perceived year at 13 is defined as an interval of time that feels as long as an average year would feel under the time perception I had on my 13th birthday. An "average year" is defined as 1/13 the time between my birth and my 13th birthday, for ease of calculation. This is slightly different from the mean year in the Julian or Gregorian calendars, or the mean solar year.</p>
-        <p align="center">Time since I was born in milliseconds: <span id="time"></span></p>
-        <p align="center">My logarithmic age in "perceived years at 13" since I was 13: <span id="logage"></span></p>
-        <p>Note: Time since I was born is given as time since the beginning of the day I was born, not the time I was born.</p>
+        <form align="center">
+            <label for="cars">Set birth date:</label>
+            <!-- There's also this: https://www.iditect.com/program-example/html--call-javascript-function-onchange-event-of-dropdown-list.html -->
+            <select name="years" id="years" onchange="yearDropdownChanged()">
+                <option value="1960">1960</option>
+                <option value="1961">1961</option>
+                <option value="1962">1962</option>
+                <option value="1963">1963</option>
+                <option value="1964">1964</option>
+                <option value="1965">1965</option>
+                <option value="1966">1966</option>
+                <option value="1967">1967</option>
+                <option value="1968">1968</option>
+                <option value="1969">1969</option>
+                <option value="1970">1970</option>
+                <option value="1971">1971</option>
+                <option value="1972">1972</option>
+                <option value="1973">1973</option>
+                <option value="1974">1974</option>
+                <option value="1975">1975</option>
+                <option value="1976">1976</option>
+                <option value="1977">1977</option>
+                <option value="1978">1978</option>
+                <option value="1979">1979</option>
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+            <select name="months" id="months" onchange="monthDropdownChanged()">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select name="days" id="days" onchange="dayDropdownChanged()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <br><br>
+            <!-- I changed my mind about how I was handling this; I'll just use a normal button. -->
+            <!--<input type="submit" value="Submit">-->
+        </form>
+        <p align="center"><button id="submitButton">Submit</button></p>
+        <p align="center">Your logarithmic age in "perceived years at 13" since you were 13: <span id="logage"></span></p>
+        <p>Note: So far, there's no way to enter the time of day you were born, so the counter uses the beginning of the day in your local timezone. This makes the count slightly inaccurate, but revealing the time of day I was born is just a little too personal for this site.</p>
         <p align="center"><a href="misc.html">Back</a></p>
     </body>
     <script>
@@ -26,13 +148,83 @@
         p(13th birthday) = 0
         p(t) = integral(13/(t' - birth), t', 13th birthday, t) = 13*(log(t - birth) - log(my age at 13))
         */
-        const myBirthday = new Date("1999-03-01").getTime();
-        const myAgeAt13 = new Date("2012-03-01").getTime() - myBirthday;
+        // set the default value of each of the dropdowns specifically to my birthday
+        document.getElementById('years').value = '1999';
+        document.getElementById('months').value = 'March';
+        document.getElementById('days').value = '1';
+
+        var year = 1999;
+        var month = 2; // interestingly, months are stored as 0-indexed in the Date constructor object. So this is March.
+        var day = 1;
+        // these values are stored as Unix timestamps. myAgeAt13 ignores leap seconds, and ignores the time of day I was born.
+        var startTime = new Date(1999, 2, 1).getTime(); // my birthday by default, can be changed later
+        const myAgeAt13 = new Date(2012, 2, 1).getTime() - startTime;
+
+        // if you know, you know
+        function isLeapYear(year) {
+            if (year % 100 === 0) year = year/100;
+            return year % 4 === 0;
+        }
+
         function updateDisplay() {
+            // update which dates are unselectable
+            const dateDropdown = document.getElementById('days');
+            
+            if ([0, 2, 4, 6, 7, 9, 11].includes(month)) {
+                dateDropdown[30].style.display = 'block';
+            }
+            else {
+                dateDropdown[30].style.display = 'none';
+            }
+            if (month == 1) {
+                dateDropdown[29].style.display = 'none';
+            }
+            else {
+                dateDropdown[29].style.display = 'block';
+            }
+            if (month == 1 && !isLeapYear(year)) {
+                dateDropdown[28].style.display = 'none';
+            }
+            else {
+                dateDropdown[28].style.display = 'block';
+            }
+
+            // update log age
             const d = new Date();
-            document.getElementById("time").innerHTML = (d.getTime() - myBirthday);
-            document.getElementById("logage").innerHTML = 13*(Math.log(d.getTime() - myBirthday) - Math.log(myAgeAt13));
+            document.getElementById("logage").innerHTML = (13*(Math.log(d.getTime() - startTime) - Math.log(myAgeAt13))).toPrecision(8);
         }
         setInterval(updateDisplay, 1000/30);
+
+        const submitButton = document.getElementById("submitButton");
+        submitButton.addEventListener("click", () => { startTime = new Date(year, month, day).getTime(); });
+
+        function monthNameToNumber(monthName) {
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            return monthNames.indexOf(monthName);
+        }
+
+        function yearDropdownChanged() {
+            // Get the selected value
+            var selectedValue = document.getElementById('years').value;
+
+            // store the selected value as a year
+            year = new Number(selectedValue);
+        }
+
+        function monthDropdownChanged() {
+            // Get the selected value
+            var selectedValue = document.getElementById('months').value;
+
+            // store the selected value as a month number
+            month = monthNameToNumber(selectedValue);
+        }
+
+        function dayDropdownChanged() {
+            // Get the selected value
+            var selectedValue = document.getElementById('days').value;
+
+            // store the selected value as a month number
+            day = new Number(selectedValue);
+        }
     </script>
 </html>
